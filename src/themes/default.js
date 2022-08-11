@@ -151,7 +151,7 @@ const theme = {
   },
   // Card
   card: {
-    base: "min-w-0 rounded-lg ring-1 ring-black ring-opacity-5 overflow-hidden",
+    base: "min-w-0 rounded-lg ring-1 ring-black ring-opacity-5",
     default: "bg-white dark:bg-gray-800",
   },
   cardBody: {

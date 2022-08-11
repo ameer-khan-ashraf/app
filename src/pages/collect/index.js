@@ -49,7 +49,6 @@ function Collect({ props }) {
   const { user } = useAuth();
   const createThing = useCreateThing();
   const st = getFirebaseStorage();
-
   const storeImages = async (media, user) => {
     let urls = [];
     for (const img of media) {
